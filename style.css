@@ -1,0 +1,34 @@
+.recipe-container{
+
+outline: 20px;
+outline-color:black;
+width: auto;
+height: auto;
+}
+
+.recipe-container:hover{
+    transform: scale(1.1);
+    transition:ease-in-out 2ms;
+    transition-duration: 2ms;
+}
+
+.header{
+    text-align: center;
+}
+
+.ingredients-list{
+    outline-width: medium;
+    outline-color: gainsboro;
+    outline-style: outset;
+    height: 800px;
+    width:600px;
+
+    background-color: white;
+
+
+}
+
+body{
+    background-color: antiquewhite;
+    
+}
