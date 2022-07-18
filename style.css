@@ -32,3 +32,13 @@ body{
     background-color: antiquewhite;
     
 }
+
+.Recipe-wrapper{
+    background-color: white;
+    text-align: center;
+    margin:auto;
+    
+
+    padding-top: 100px;
+    padding-bottom: 100px;
+}
