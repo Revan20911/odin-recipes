@@ -23,7 +23,7 @@ height: auto;
 
 .ingredients-list{
     
-    height: 800px;
+    height: fit-content;
     width:600px;
     border-radius: 1.5em;
     margin:auto;
@@ -32,14 +32,13 @@ height: auto;
     color: lightslategray;
     font: 1em arial;
     line-height: 1.5em;
-    animation: appear 0.9s 0.4s forwards;
+    animation: appear 2.2s 1s forwards;
+    opacity: 0;
     
 }
 
 .directions{
-    outline-width: medium;
-    outline-color: gainsboro;
-    outline-style: outset;
+    opacity: 0;
     background-color: #02022d;
     padding: 50px;
     height: fit-content;
@@ -48,9 +47,9 @@ height: auto;
     margin:auto;
     font: 1em arial;
     color: lightslategray;
-    text-shadow: 1px;
+    
     line-height: 1.5em;
-    animation: appear 1.2s 0.6s forwards;
+    animation: appear 2.2s 1.5s forwards;
     
     border-radius: 1.5em;
 }
@@ -78,10 +77,11 @@ h3[type='directions']{
 }
 
 h2{
+    opacity: 0;
     text-align: center;
-    font: arial;
+    font-family: arial;
     color: white;
-    animation: fade-in 0.9s 0.2s forwards;
+    animation: fade-in 1.9s 0.2s forwards;
     margin-top: 1em;
     margin-bottom: 1em;
 }
@@ -90,6 +90,13 @@ h1{
     color: white;
     font-family: arial;
     padding: 10px;
+}
+
+img{
+    max-width: 600px; 
+    max-height:600px;
+    border-radius: 1.5em;
+    
 }
 
 @keyframes appear {
