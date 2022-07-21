@@ -28,6 +28,17 @@ height: auto;
 
 }
 
+.directions{
+    outline-width: medium;
+    outline-color: gainsboro;
+    outline-style: outset;
+    background-color: white;
+
+    height: fit-content;
+    width: 600px;
+    word-wrap: normal;
+}
+
 body{
     background-color: antiquewhite;
     
