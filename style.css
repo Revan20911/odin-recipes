@@ -14,43 +14,50 @@ height: auto;
 
 .header{
     text-align: center;
+    background-color:#02022d;
+    margin-bottom: 1em; 
+    margin-left: 0%;
+    
+
 }
 
 .ingredients-list{
-    outline-width: medium;
-    outline-color: gainsboro;
-    outline-style: outset;
+    
     height: 800px;
     width:600px;
-
-    background-color: white;
+    border-radius: 1.5em;
+    margin:auto;
+    background-color:#02022d;
     padding: 50px;
-
+    color: lightslategray;
     font: 1em arial;
     line-height: 1.5em;
+    animation: appear 0.9s 0.4s forwards;
+    
 }
 
 .directions{
     outline-width: medium;
     outline-color: gainsboro;
     outline-style: outset;
-    background-color: black;
+    background-color: #02022d;
     padding: 50px;
     height: fit-content;
     width: 600px;
     word-wrap: normal;
-    
+    margin:auto;
     font: 1em arial;
-    color: aliceblue;
+    color: lightslategray;
     text-shadow: 1px;
     line-height: 1.5em;
-    animation: appear 0.9s 0.2s forwards;
+    animation: appear 1.2s 0.6s forwards;
     
     border-radius: 1.5em;
 }
 
 body{
-    background-color: antiquewhite;
+    background-color: white;
+    background-image: url("/home/chrism/repos/odin-recipes/images/photo-1564638305579-5e395c9b62c7.avif");
     
 }
 
@@ -64,13 +71,33 @@ body{
     padding-bottom: 100px;
 }
 
-h4[type='directions']{
+h3[type='directions']{
 
-    color:aliceblue;
+    color: white;
 
+}
+
+h2{
+    text-align: center;
+    font: arial;
+    color: white;
+    animation: fade-in 0.9s 0.2s forwards;
+    margin-top: 1em;
+    margin-bottom: 1em;
+}
+
+h1{
+    color: white;
+    font-family: arial;
+    padding: 10px;
 }
 
 @keyframes appear {
     from {opacity: 0} to {opacity: 1};
     from {margin-top: 0em} to {margin-top: 1em};
+}
+
+@keyframes fade-in{
+    from {opacity: 0} to {opacity: 1};
+    from {margin-left: 0em} to {margin-left: 1em};
 }
