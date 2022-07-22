@@ -4,6 +4,12 @@ outline: 20px;
 outline-color:black;
 width: auto;
 height: auto;
+margin: 1em;
+color: white;
+font-family: arial;
+
+
+
 }
 
 .recipe-container:hover{
@@ -50,24 +56,28 @@ height: auto;
     
     line-height: 1.5em;
     animation: appear 2.2s 1.5s forwards;
-    
+    margin-top: 1em;
     border-radius: 1.5em;
 }
 
 body{
+    text-align: center;
     background-color: white;
     background-image: url("/home/chrism/repos/odin-recipes/images/photo-1564638305579-5e395c9b62c7.avif");
     
 }
 
 .Recipe-wrapper{
-    background-color: white;
+    background-color: #02022d;
     text-align: center;
-    margin:auto;
+    width: auto;
     
+    display: inline-flex;
+    padding-right: 2rem;
 
     padding-top: 100px;
     padding-bottom: 100px;
+    border-radius: 1.5em;
 }
 
 h3[type='directions']{
@@ -98,6 +108,19 @@ img{
     border-radius: 1.5em;
     
 }
+
+a:link { text-decoration: none; }
+
+
+a:visited { text-decoration: none; color: white;}
+
+
+a:hover { text-decoration: none; }
+
+
+a:active { text-decoration: none; }
+
+
 
 @keyframes appear {
     from {opacity: 0} to {opacity: 1};
